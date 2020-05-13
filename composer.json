@@ -1,0 +1,18 @@
+{
+    "name": "justbetter/magento2-module-change-subtotal",
+    "license": "OSL-3.0",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "description": "Return shipping calculation to working like before 2.3.5-p1",
+    "authors":[
+        {
+            "name":"Indy Koning",
+            "email":"indy@justbetter.nl"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ]
+    }
+}

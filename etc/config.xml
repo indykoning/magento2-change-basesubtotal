@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <tax>
+            <calculation>
+                <base_subtotal_should_include_tax>1</base_subtotal_should_include_tax>
+            </calculation>
+        </tax>
+    </default>
+</config>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="tax">
+                <group id="calculation">
+                    <field id="base_subtotal_should_include_tax" translate="label" type="select" sortOrder="35" showInDefault="1" showInWebsite="1" showInStore="1">
+                        <label>Shipping Base Subtotal</label>
+                        <comment>This sets wether the order price used to calculate free shipping should include tax</comment>
+                        <backend_model>Magento\Tax\Model\Config\Price\IncludePrice</backend_model>
+                        <source_model>Magento\Tax\Model\System\Config\Source\PriceType</source_model>
+                    </field>
+                </group>
+        </section>
+    </system>
+</config>
