@@ -3,4 +3,7 @@
     <type name="Magento\Quote\Model\Quote\Address">
         <plugin name="custom_base_subtotal" type="JustBetter\ChangeBasesubtotal\Plugin\Address\Quote\Model\Quote\Address"/>
     </type>
+    <type name="Magento\SalesRule\Model\Rule\Condition\Address">
+        <plugin name="add_subtotal_excl_tax" type="JustBetter\ChangeBasesubtotal\Plugin\Model\Rule\Condition\Address"/>
+    </type>
 </config>
