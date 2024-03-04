@@ -8,6 +8,8 @@ use Magento\Quote\Model\Quote\Item\AbstractItem;
 
 class Address
 {
+    public Data $helper;
+    
     /**
      * Construct.
      *
